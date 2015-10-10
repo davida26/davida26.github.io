@@ -5,7 +5,7 @@ title: About
 
 So you have an interest in the stuff I do or want to be a little creepy ;)
 
-Whatever the case may be - here is a little snippet to who I am and the projects I participate/d in.
+Whatever the case may be - here is a little snippet to who I am.
 
 You should also connect with me on [LinkedIn](https://www.linkedin.com/pub/david-aviles/89/19a/796) for:
 - Professional Inquiries
