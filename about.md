@@ -26,7 +26,7 @@ So the first to-do item I mastered was crawling. Now of course I don't remember 
 
 Fast forward a few years and I was landing more girlfriends than I could handle - *wish that had been the case in highschool*. 
 
-I also had everything comped and the existance of currency was foreign to me. Life was good.
+I also had everything comped and the existence of currency was foreign to me. Life was good.
 
 
 ## The Tech Start
@@ -56,14 +56,17 @@ Yep, I learned to dance. The dance studio had more women than men, I was in heav
 
 ## The SE Years
 
-By the time I got to college, I knew what I wanted to do. I loved computers, coding and the web. It was only natural for me to declare my major as Software Engineering (SE). College was an experience on its own as many of us would agree. My academic achievements combined with my newly found social skills did well. College was a blast:
+By the time I got to college, I knew what I wanted to do. I loved computers, coding and the web. It was only natural for me to declare my major as Software Engineering (SE). College was an experience on its own, as many of us would agree. My academic achievements combined with my newly found social skills did well. College was a blast:
+
 - I got to experiment with C++
 - Learned about Java and how I could use it for the web
-- Got even fancier with web technologies
-- Setup a few servers
+- Got even fancier with more web technologies
+- Learned about servers #LinuxFTW
 - Landed a few web developer roles
+- Blew up a couple Databases
+- Had a few beers too many (RIP Freshman Year)
 
-and 4 of the best years of my life flew by.
+and 4 of the best years of my life flew by. Hmm... "best years" , I've use that before. Just goes to show you that any year is a best year. 
 
 ## Today
 
