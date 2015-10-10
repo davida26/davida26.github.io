@@ -8,6 +8,7 @@ So you have an interest in the stuff I do or want to be a little creepy ;)
 Whatever the case may be - here is a little snippet to who I am.
 
 You should also connect with me on [LinkedIn](https://www.linkedin.com/pub/david-aviles/89/19a/796) for:
+
 - Professional Inquiries
 - Random Connections in the Field
 - or just to say hello, I do respond (unless you're a recruiter and then you really need to catch my eye) 
