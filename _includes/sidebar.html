@@ -6,7 +6,7 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="lead-intro">{{ site.description }}</p>
     </div>
 
     <nav class="sidebar-nav">
@@ -26,10 +26,11 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github }}">GitHub</a>
-      <a class="sidebar-nav-item" href="{{ site.linkedin }}">LinkedIn</a>
+      <a class="sidebar-nav-item" href="{{ site.twitter }}" target="_blank">Twitter<span class="beta">New</span></a>
+      <a class="sidebar-nav-item" href="{{ site.github }}" target="_blank" >GitHub<span class="beta">New</span></a>
+      <a class="sidebar-nav-item" href="{{ site.linkedin }}" target="_blank">LinkedIn</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
+  <p class="nav-copy">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 </div>

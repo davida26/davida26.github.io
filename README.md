@@ -12,7 +12,7 @@ Built on [Jekyll](http//jekyllrb.com) - because its awesome.
 - Experiments with Arduino
 - Ruby on Rails
 - JavaScript Hacking & Libs 
-- Linux & Linux Servers
+- Linux
 - Security
 - The Command Line
 

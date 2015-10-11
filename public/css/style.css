@@ -16,7 +16,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -59,7 +59,25 @@ html {
   color: #fff;
 }
 
+/* Beta */ 
+
+.beta{
+  border-radius: 50%;
+  background-color: #ea0000;
+  color: #FFF;
+  position: relative;
+  top: -12px;
+  font-size: 0.4rem;
+  padding: 0.2rem;
+  box-shadow: 1px 2px 3px #000;
+}
+
 /* About section */
+
+.sidebar-about{
+    padding-bottom: 2em;
+}
+
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
@@ -83,6 +101,16 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+.lead-intro{
+  font-size: 1rem;
+}
+
+.nav-copy{
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.8rem;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -94,7 +122,7 @@ a.sidebar-nav-item:focus {
     position: absolute;
     right:  1rem;
     top: 1rem;
-    left:   1rem;
+    left: 0rem;
   }
 }
 

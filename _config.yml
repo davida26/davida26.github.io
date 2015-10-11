@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            CuratedCode
-tagline:          'Random Experiments and Other Findings'
-description:      'Web Experiments and Other Findings by <a href="http://www.twitter.com/CuratedCode">David Aviles</a>'
+tagline:          'Random Web Experiments and Other Findings'
+description:      'Experiments and other findings by <a href="http://www.twitter.com/CuratedCode">David Aviles</a>'
 url:              http://CuratedCode.com
 baseurl:          /
 
@@ -22,3 +22,4 @@ paginate:         5
 # Custom vars
 linkedin:         https://www.linkedin.com/pub/david-aviles/89/19a/796
 github:			  https://www.github.com/davida26       
+twitter: 		  https://www.twitter.com/CuratedCode
