@@ -24,7 +24,7 @@ $("#id").addClass("className"); /* add a class to Ids */
 $(".class").addClass("className"); /* add a class to Classes */
 $("button").addClass("className"); /* add a class to Elements */
 $("button").removeClass("className"); /* remove class from elements */
-#("#target").css("background-color", "red");
+$("#target").css("background-color", "red"); /* Add a CSS property to a target */
 
 {% endhighlight %}
 
@@ -32,8 +32,8 @@ $("button").removeClass("className"); /* remove class from elements */
 
 {% highlight js %}
 
-$("#target1").prop("disabled", true);
-$("#target").remove()
+$("#target1").prop("disabled", true); /* set state to disabled */
+$("#target").remove() /* remove the target */
 
 {% endhighlight %}
 
@@ -49,7 +49,7 @@ $("#target2").appendTo("#right-well");
 
 {% highlight js %}
 
-("#target").clone().appendTo("#targeLocation");
+("#target").clone().appendTo("#targeLocation"); /* aka join functions, in this case copy or clone the target and move it to the new location */
 
 {% endhighlight %}
 
@@ -57,8 +57,8 @@ $("#target2").appendTo("#right-well");
 
 {% highlight js %}
 
-("#target").parent().css("background-color", "red");
-("#target").children().css("background-color", "red");
+("#target").parent().css("background-color", "red"); /* modify the parent of the target */
+("#target").children().css("background-color", "red"); /* modify the child of the target */
 
 {% endhighlight %}
 
@@ -66,7 +66,7 @@ $("#target2").appendTo("#right-well");
 
 {% highlight js %}
 
-(".target:nth-child(2)").addClass("animated bounce"); /* bounce the 2nd element wuth class .target */
+(".target:nth-child(2)").addClass("animated bounce"); /* bounce the 2nd element with class target */
 
 {% endhighlight %}
 
@@ -80,11 +80,3 @@ Note: jQuery starts with index 0
 
 {% endhighlight %}
 
-
-###FUN - target the body tag and use animated hinge
-
-{% highlight js %}
-
-("body").addClass("animated hinge");
-
-{% endhighlight %}
