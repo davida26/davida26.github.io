@@ -10,7 +10,7 @@ So here is an ongoing compilation of useful jQuery functions. Simple functions t
 
 If you're a beginner this is the starting foundation. You want to run your jQuery after the page has loaded to avoid any errors.
 
-{% highlight jquery %}
+{% highlight js %}
 $(document).ready(function {
 	
 });
@@ -30,7 +30,7 @@ $("button").removeClass("className"); /* remove class from elements */
 
 ###Disable/Remove an element
 
-{% highlight jquery %}
+{% highlight js %}
 
 $("#target1").prop("disabled", true);
 $("#target").remove()
@@ -39,7 +39,7 @@ $("#target").remove()
 
 ###Move elements from one container to another
 
-{% highlight jquery %}
+{% highlight js %}
 
 $("#target2").appendTo("#right-well");
 
@@ -47,7 +47,7 @@ $("#target2").appendTo("#right-well");
 
 ###Daisy Chaining Functions
 
-{% highlight jquery %}
+{% highlight js %}
 
 ("#target").clone().appendTo("#targeLocation");
 
@@ -55,7 +55,7 @@ $("#target2").appendTo("#right-well");
 
 ###Modifying parent/child elements
 
-{% highlight jquery %}
+{% highlight js %}
 
 ("#target").parent().css("background-color", "red");
 ("#target").children().css("background-color", "red");
@@ -64,7 +64,7 @@ $("#target2").appendTo("#right-well");
 
 ###Target the nth-child(n) css selector
 
-{% highlight jquery %}
+{% highlight js %}
 
 (".target:nth-child(2)").addClass("animated bounce"); /* bounce the 2nd element wuth class .target */
 
@@ -74,7 +74,7 @@ $("#target2").appendTo("#right-well");
 
 Note: jQuery starts with index 0
 
-{% highlight jquery %}
+{% highlight js %}
 
 (".target:even").addClass("animated shake");
 
@@ -83,7 +83,7 @@ Note: jQuery starts with index 0
 
 ###FUN - target the body tag and use animated hinge
 
-{% highlight jquery %}
+{% highlight js %}
 
 ("body").addClass("animated hinge");
 
