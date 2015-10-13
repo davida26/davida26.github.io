@@ -5,7 +5,7 @@ title: About
 
 Curated Code is my latest project designed to centralize information. Through this [Jekyll] (https://jekyllrb.com/) powered site, I intend to record my experiments, discoveries and random ramblings about the web and technology. The resource is primarily built for me but if your search query landed you here then more power to you. I hope it helps readers like you dig deeper into the web and innovate some projects of your own. 
 
-Given the present page you are at, you probably want to know a little more about me and if you don't well read on because why not - maybe you will get a laugh out of it. So without any further ado, here is my story.... 
+Given the present page you are at, you probably want to know a little more about me and if you don't, well read on anyway - maybe you will get a laugh out of it. So without any further ado, here is my story...
 
 
 ## The Early Years
@@ -19,16 +19,16 @@ Take for example this scenario: my first goal in life was making myself more mob
 
 ## The Tech Start
 
-Around my 10th birthday, I got into the tech scene, primarily due to the fact my father had saved up enough to buy the first family computer - *some of you younger readers may not understand how expensive or what a floppy drive pc was*. So back tot he story, from day one of setting it up to the day we finally got AOL and the beautiful dial-up noise started - I could not get enough of it. 
+Around my 10th birthday, I got into the tech scene, primarily due to the fact my father had saved up enough to buy the first family computer - *some of you younger readers may not understand how expensive a pc used to be*. So back to the story, from day one of setting it up to the day we finally got AOL and the beautiful dial-up noise started - I could not get enough of it. 
 
 I spent a significant amount of time learning about the components a traditional computer had. When that no longer satisfied my interest, I moved to opening up everything I could get my hands on. This included old T.V's, radios, phones, etc. This was also the first time I learned that a capacitor holds a charge. Ouch. 
 
 
 ## The Akward Years
 
-Everyone goes through them, right? Hey, at least the picture are funny to look at. These were the years of plain awkward me trying to fit in the world. These were the years when I was called a "nerd" and I took it as an insult - *if only I could tell my 13 year old self then how much of a compliment that is now*.
+Everyone goes through them, right? Hey, at least the pictures are funny to look at. These were the years of plain awkward me trying to fit in the world. These were the years when I was called a "nerd" and I took it as an insult - *if only I could tell my 13 year old self then how much of a compliment that is now*.
 
-In a nutshell: these were the years where I was pretending to be a mad scientist by putting spiders in different solutions, attempting to play sports but not really excelling at any of them, leaching off my neighbors wifi to learn more web stuff, waking up early to watch the Nature Nut guy on the Discovery Channel, and, well....I think you get the idea here :)
+In a nutshell: these were the years where I was pretending to be a mad scientist by putting spiders in different solutions, attempting to play sports but not really excelling at any of them, leaching off my neighbors wifi to learn more about the web, waking up early to watch the Nature Nut guy on the Discovery Channel, and, well....I think you get the idea here :)
 
 ## ET Found Home
 
@@ -40,7 +40,7 @@ These web years were also the years that my awkward self changed. I was perfectl
 
 These were also the years that in addition to learning about web development, I landed a part-time job at a dance studio. This gave me the edge I needed for the real world. I needed to get out of my shell and this was the perfect way to do it. It was constant social interaction with clients, getting over the fear of making phone calls and towards the end - teaching salsa, tango, foxtrot and more.
 
-Yep, I mastered the art to dancing ballroom and gained a greater appreciation of cultural influences that shape the world. For you see, music (or the US) would not be where it is at today if various cultures had not contibuted their own flavor. 
+Yep, I mastered the art of ballroom dancing and gained a greater appreciation of cultural influences that shape the world. For you see, music (or the US) would not be where it is at today if various cultures had not contributed their own flavor. 
 
 Also the dance studio had more women than men, I was in heaven. Reminds you of the baby genius story above, doesn't it?
 
