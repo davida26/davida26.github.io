@@ -16,9 +16,9 @@ $(document).ready(function {
 });
 {% endhighlight %}
 
-###Manipulate by class
+###Manipulate by adding a class or CSS
 
-{% highlight jquery linenos %}
+{% highlight js %}
 
 $("#id").addClass("className"); /* add a class to Ids */
 $(".class").addClass("className"); /* add a class to Classes */
