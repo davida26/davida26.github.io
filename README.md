@@ -20,9 +20,8 @@ Built on [Jekyll](http//jekyllrb.com) - because its awesome.
 ## Author
 
 **David Aviles**
-Software Engineer | Sophisticated Beer Drinker | Outdoorsman | JeepLife
+Software Engineer | Beer Drinker | Outdoorsman | JeepLife
 - <https://github.com/davida26>
 - <https://twitter.com/curatedcode>
 
 
-<3
