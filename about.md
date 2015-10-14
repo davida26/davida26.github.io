@@ -10,7 +10,7 @@ Given the present page you are at, you probably want to know a little more about
 
 ## The Early Years
 
-These were probably the best years for me. I like to think these are everyone's best years that we all take for granted. For example, the only burning feel of anxiety that I had was who was going to change my shitty diaper and feed me my next bottle. Furthermore, everything was comped under my parents tab and the existence of currency was foreign to me. Life was good!
+These were probably the best years for me. I like to think these are everyone's best years that we all take for granted. For example, the only feeling of anxiety that I had was who was going to change my shitty diaper and feed me my next bottle. Furthermore, everything was comped under my parents tab and the existence of currency was foreign to me. Life was good!
 
 Anyway, since I was young, I liked the idea of practicing things over and over again until I had achieved an acceptable level of mastery. Have I mentioned I was a baby genius? 
 
@@ -19,7 +19,7 @@ Take for example this scenario: my first goal in life was making myself more mob
 
 ## The Tech Start
 
-Around my 10th birthday, I got into the tech scene, primarily due to the fact my father had saved up enough to buy the first family computer - *some of you younger readers may not understand how expensive a pc used to be*. So back to the story, from day one of setting it up to the day we finally got AOL and the beautiful dial-up noise started - I could not get enough of it. 
+Around my 10th birthday, I got into the tech scene. This was primarily due to the fact that my father had saved up enough to buy the first family computer - *some of you younger readers may not understand how expensive a pc used to be*. So back to the story, from day one of setting it up to the day we finally got AOL and the beautiful dial-up noise started - I could not get enough of it. #56Kbps
 
 I spent a significant amount of time learning about the components a traditional computer had. When that no longer satisfied my interest, I moved to opening up everything I could get my hands on. This included old T.V's, radios, phones, etc. This was also the first time I learned that a capacitor holds a charge. Ouch. 
 

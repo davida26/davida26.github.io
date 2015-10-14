@@ -1,3 +1,9 @@
+---
+layout: post
+title: Using jQuery to Change Elements and CSS
+---
+
+
 ##Using jQuery to change elements and css
 
 When I was first starting out with jQuery, I was a huge fan of the [jQuery Docs] (http://api.jquery.com/). It is a great resource to learn more about functions, how to use them, parameters available, etc. 
