@@ -18,11 +18,11 @@ So the main problem here is that the server has been either modified with lower 
 
 ##The Main Culprits
 
-1. upload_max_filesize
+1. upload\_max\_filesize
 2. memory_limit
-3. post_max_size
+3. post\_max\_size
 
-These are located in the configuration file: * php.ini *
+These are located in the configuration file: *php.ini*
 
 ##Finding the file
 
@@ -32,9 +32,7 @@ There are many ways to search for the file. One quick way is to search your serv
 sudo find / -name php.ini
 {% endhighlight %}
 
-This approach is quick and will find the file you need but will also reveal [several other php.ini] (
-
-http://askubuntu.com/questions/356968/find-the-correct-php-ini-file) files. The one you want is the one for apache. Located here:
+This approach is quick and will find the file you need but will also reveal [several other php.ini](http://askubuntu.com/questions/356968/find-the-correct-php-ini-file) files. The one you want is the one for apache. Located here:
 
 {% highlight bash %}
 
@@ -52,11 +50,11 @@ This is suggested so that if you have a very large file, you have enough memory 
 
 Now in my case the defaults were set to:
 
-1. post_max_size: 128M
+1. post\_max\_size: 128M
 2. memory_limit: 8M
-3. upload_max_filesize: 2M
+3. upload\_max\_filesize: 2M
 
-Everything looked ok until I noticed that my file was 7.5M. So ofcourse, this was way over my max_upload_filesize. 
+Everything looked ok until I noticed that my file was 7.5M. So ofcourse, this was way over my max\_upload\_filesize. 
 
 ##Editing the file
 
@@ -66,7 +64,7 @@ Sudo nano /etc/php5/apache2/php.ini
 
 {% endhighlight %}
 
-Use control + W (^W) to find the line in the file: * upload_max_filesize *
+Use control + W (^W) to find the line in the file: *upload\_max\_filesize*
 
 Once I found it, I edited it to 10M and updated the memory_limit to 12M just to comply with the general formula above.
 

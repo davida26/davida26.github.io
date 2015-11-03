@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            CuratedCode
-tagline:          'A work in progress of my random web experiments and other findings'
-description:      'Experiments and other findings by <a href="http://www.twitter.com/CuratedCode">David Aviles</a>'
+tagline:          'A Blog of Web Experiments and Other Projects'
+description:      'A work in progress of experiments and other findings by David Aviles'
 url:              http://CuratedCode.com
 baseurl:          /
 
