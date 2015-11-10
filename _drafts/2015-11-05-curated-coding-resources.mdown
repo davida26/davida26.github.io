@@ -1,0 +1,8 @@
+---
+layout: post
+title: Curated References of Coding Resources
+---
+
+##Here are my top picks
+
+1. [Pygments Lexers](http://pygments.org/docs/lexers/)

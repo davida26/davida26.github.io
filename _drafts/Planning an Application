@@ -1,0 +1,67 @@
+## Planning an Application
+
+Before building an application it is important to first understand the needs of the clients and carefully document the requirements. To start out, it is important to first answer some questions.
+
+###1. What are we building?
+
+This is very important to know because if you don't know what you are building or what your goal is. You are bound to fail without even starting.
+
+The application I want to build here is a client information directory app. Users should be able to enter client information such as name, phone, email, address. It should save the client data and compile a list of clients we can reference to later on. The application should have a login so only company personnel can access it.
+
+###2. Who are we building it for?
+
+Our app here is being built for a company that is transitioning from paper and pencil to web.
+
+###3. What features do we need to have?
+
+Features are best documented by understading the requirements imposed by a client. A good approach for understanding this is by creating user stories (below)
+
+- Clients
+	- Add, Edit, Delete
+	- Search
+
+- Users (Devise)
+	- Add, Edit, Delete
+	- Search
+	- SendGrid
+	
+
+##User Stories
+
+The formal definition of a user story is: 
+
+*A user story is a tool used in Agile software development to capture a description of a software feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement.*
+
+In other words it follows this format:
+
+As a <role>, I want <feature> so that <reason>
+
+- As a user I want to be able to store client information so that I can view it at a later time.
+
+- As a user I want to be able to search by client name or company.
+
+- As a user I want to be able to edit, delete clients.
+
+- As an administrator I want to be able to see who added the client
+
+- As an administrator I want to be able to create new authorized users
+
+- As an administrator I want to restrict access to users I create to keep client list secure.
+
+## Modeling Data
+
+**Clients**
+
+	Name: String
+	Company: String
+	Phone: Int
+	Address: String
+	Email: String
+
+**User**
+
+## Pages needed in the app
+
+- Login Page
+- Client List#index
+- Client List#show
