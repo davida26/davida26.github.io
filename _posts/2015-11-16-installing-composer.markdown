@@ -3,13 +3,13 @@ layout: post
 title: Working with Composer
 ---
 
-The web ecosystem of today is revolutionary. Everyday we are creating new tools, frameworks, standards and engineering new ideas to push further. This weekend I decided to take up exploring a PHP framework called Laravel. Coming from a RoR background, I was familiar with the MVC architecture behind it. 
+The web ecosystem of today is revolutionary. Everyday we are creating new tools, frameworks, standards and engineering new ideas to push further. This weekend I decided to take up exploring a PHP framework called Laravel. Coming from a RoR background, I was familiar with the MVC architecture behind it. It was also fun to explore and evaluate its potential because it took me back to my early days. Days where I was working for a local web company building WordPress powered sites. Overall, I figured laravel would be a good fit to re-tinker with PHP and MVC.
 
-Along the way, I picked up a few PHP tools that in my early days as a developer, we did not have. 
+Along the way, I picked up a few PHP tools that in my early days as a developer, I did not have. 
 
 ## Enter Composer
 
-Composer is a dependancy manager for PHP. If you are new to PHP, this basically helps you install different open source packages to use in your projects. So if you don't want to re-invent the wheel and take advantage of large community of developers, you can use a site like [packagist.org] (https://packagist.org) to find what you need. 
+Composer is a dependancy manager for PHP. If you are new to PHP, this basically helps you install different open source packages to use in your projects. So if you don't want to re-invent the wheel and you want take advantage of large community of developers, this is the way to go.
 
 ## Installing Composer
 
@@ -17,7 +17,7 @@ Using and installing composer has been super easy. Almost no learning curve and 
 
 To get started with composer simply go to [getcomposer.org] (https://getcomposer.org/) and hit download. You will be presented with different options depending on your system. In my case, I am on OSX so i ran the following command:
 
-{{% highlight bash %}}
+{{% highlight console %}}
 
 curl -sS https://getcomposer.org/installer | php
 
@@ -25,7 +25,7 @@ curl -sS https://getcomposer.org/installer | php
 
 This will install composer and get all the required files for you. When it completes you should have something like this:
 
-{{% highlight bash %}}
+{{% highlight console %}}
 
 ➜  ~  curl -sS https://getcomposer.org/installer | php
 #!/usr/bin/env php
@@ -44,7 +44,7 @@ Notice the last line tells you how to use it. This of course is not very practic
 
 Fix is simple. All you need to do is move the *composer.phar* to your your local *bin* directory. Notice that we are moving it there into its own directory called composer.
 
-{{% highlight bash %}}
+{{% highlight console %}}
 
 mv composer.phar /usr/local/bin/composer
 
@@ -56,7 +56,7 @@ And bingo. You are all set to get started with composer. So lets test it.
 
 Let's start testing composer to make sure our install works. In your CLI type in the following:
 
-{{% highlight bash %}}
+{{% highlight console %}}
 
 composer
 
@@ -70,7 +70,7 @@ So of course Composer is great if you use it to add what you need for your proje
 
 To use composer to install Laravel I used the following command:
 
-{{ % highlight bash %}}
+{{ % highlight console %}}
 
 composer create-project laravel/laravel lavarel-app
 
