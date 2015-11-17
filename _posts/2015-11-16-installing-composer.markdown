@@ -21,7 +21,7 @@ To get started with composer simply go to [getcomposer.org] (https://getcomposer
 
 curl -sS https://getcomposer.org/installer | php
 
-{% highlightend %}
+{% endhighlight %}
 
 This will install composer and get all the required files for you. When it completes you should have something like this:
 
@@ -36,7 +36,7 @@ Downloading...
 Composer successfully installed to: /Users/David/composer.phar
 Use it: php composer.phar
 
-{% highlightend %}
+{% endhighlight %}
 
 Notice the last line tells you how to use it. This of course is not very practical because this would mean that everytime I want to use composer I would have to type *composer.phar*
 
@@ -74,7 +74,7 @@ To use composer to install Laravel I used the following command:
 
 composer create-project laravel/laravel lavarel-app
 
-{% highlightend %}
+{% endhighlight %}
 
 This will run through all the dependancies Laraval needs and install them as well as Laravel itself.
 
