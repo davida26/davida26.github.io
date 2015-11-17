@@ -76,13 +76,13 @@ composer create-project laravel/laravel lavarel-app
 
 {% endhighlight %}
 
-This will run through all the dependancies Laraval needs and install them as well as Laravel itself.
+This will install all the dependancies Laravel needs and Laravel itself.
 
 You may be wondering how I knew what to type above. Well, I didn't actually. However, what I did know was the following:
 
 1. The *composer* command - just like all other tools, you need to call the tool.
-2. That I needed to create a project using composer and seeing the docs for composer: *create-project* was exactly what I needed.
-3. I needed to install Laravel. So as mentioned above, I went to (packagist.org) [https://packagist.org/search/?q=laravel] and did a search for Laravel. Above the title, it tells you the require name.
+2. That I needed to create a project using composer and reading the docs for composer: *create-project* was exactly what I needed.
+3. I needed to install Laravel. So as mentioned above, I went to [packagist.org](https://packagist.org/search/?q=laravel) and did a search for Laravel. Above the title, it tells you the require name.
 
 *laravel/laravel* the syntax here is the VendorName/PackageName which is what composer needs.
 
@@ -90,7 +90,7 @@ You may be wondering how I knew what to type above. Well, I didn't actually. How
 
 ## More about Composer
 
-Of course there is much more you can do with composer. I highly encourage you to read their documemtation. It is pretty robust and provides everything you need to extend your composer knowledge.
+Of course there is much more you can do with composer. I highly encourage you to read the [Composer docs] (https://getcomposer.org/). It is pretty robust and provides everything you need to extend your composer knowledge.
 
 
 
