@@ -3,7 +3,7 @@ layout: post
 title: Working with Composer
 ---
 
-The web ecosystem of today is revolutionary. Everyday we are creating new tools, frameworks, standards and engineering new ideas to push further. This weekend I decided to take up exploring a PHP framework called Laravel. Coming from a RoR background, I was familiar with the MVC architecture behind it. It was also fun to explore and evaluate its potential because it took me back to my early days. Days where I was working for a local web company building WordPress powered sites. Overall, I figured laravel would be a good fit to re-tinker with PHP and MVC.
+The web ecosystem of today is revolutionary. Everyday we are creating new tools, frameworks, standards and engineering new ideas to push further. This weekend I decided to take up exploring a PHP framework called Laravel. Coming from a RoR background, I was familiar with the MVC architecture behind it. It was also fun to explore and evaluate its potential because it took me back to my early days. Days where I was working for a local web company building WordPress powered sites. Overall, I figured laravel would be a good fit to re-tinker with PHP and expand on MVC.
 
 Along the way, I picked up a few PHP tools that in my early days as a developer, I did not have. 
 
@@ -83,14 +83,14 @@ You may be wondering how I knew what to type above. Well, I didn't actually. How
 1. The *composer* command - just like all other tools, you need to call the tool.
 2. That I needed to create a project using composer and reading the docs for composer: *create-project* was exactly what I needed.
 3. I needed to install Laravel. So as mentioned above, I went to [packagist.org](https://packagist.org/search/?q=laravel) and did a search for Laravel. Above the title, it tells you the require name.
-
-*laravel/laravel* the syntax here is the VendorName/PackageName which is what composer needs.
-
 4. I wanted to store this new app in a directory called laravel-app. So the last section creates that for me.
+
+<strong>Quick Note:</strong> *laravel/laravel* the syntax here is the *VendorName/PackageName*
+
 
 ## More about Composer
 
-Of course there is much more you can do with composer. I highly encourage you to read the [Composer docs] (https://getcomposer.org/). It is pretty robust and provides everything you need to extend your composer knowledge.
+Ofcourse there is much more you can do with composer. I highly encourage you to read the [Composer docs] (https://getcomposer.org/). It is pretty robust and provides everything you need to extend your composer knowledge.
 
 
 
