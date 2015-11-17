@@ -60,7 +60,7 @@ Let's start testing composer to make sure our install works. In your CLI type in
 
 composer
 
-{% highlight end %}
+{% endhighlight %}
 
 this will run composer and give you all its option. If you see the list you are good to go!
 
