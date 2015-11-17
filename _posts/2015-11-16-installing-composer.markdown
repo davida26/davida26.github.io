@@ -70,7 +70,7 @@ So of course Composer is great if you use it to add what you need for your proje
 
 To use composer to install Laravel I used the following command:
 
-{{ % highlight console %}
+{% highlight console %}
 
 composer create-project laravel/laravel lavarel-app
 
