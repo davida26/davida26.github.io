@@ -1,1 +1,18 @@
+before_script: bundle update
+cache: bundler
+sudo: false
 language: ruby
+
+rvm:
+  - &ruby1 2.3.0
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - rvm: *jruby
+    - rvm: *rhead
+
+branches:
+  only:
+    - master
+
