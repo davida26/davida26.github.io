@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      Rogue
+highlighter:      Rouge
 excerpt_separator: "\n\n"
 gems: [jekyll-paginate]
 
