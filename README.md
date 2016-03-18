@@ -20,7 +20,7 @@ Built on [Jekyll](http//jekyllrb.com) - because its awesome.
 ## Author
 
 **David Aviles**
-Software Engineer | Beer Drinker | Climber | Data Nerd | JeepLife
+Software Engineer | Beer Drinker | Climber | Data Nerd | Jeeps
 - <https://github.com/davida26>
 - <https://twitter.com/davidaviles26>
 
