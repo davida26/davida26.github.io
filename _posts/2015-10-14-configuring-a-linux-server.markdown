@@ -60,7 +60,7 @@ Linux will attempt to identify the present location of your server. Adjust for c
 <strong>Partition Disks - Remove USB</strong>
 If you are using the USB boot, it will detect is as:
 
-{% highlight console %}
+{% highlight bash %}
 
 /dev/sda
 

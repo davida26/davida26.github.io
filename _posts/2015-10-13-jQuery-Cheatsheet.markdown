@@ -16,7 +16,7 @@ So here is an ongoing compilation of useful jQuery functions. Simple functions t
 
 If you're a beginner this is the starting foundation. You want to run your jQuery after the page has loaded to avoid any errors.
 
-{% highlight js %}
+{% highlight javascript %}
 $(document).ready(function {
 	
 });
@@ -24,7 +24,7 @@ $(document).ready(function {
 
 ###Manipulate by adding a class or CSS
 
-{% highlight js %}
+{% highlight javascript %}
 
 $("#id").addClass("className"); /* add a class to Ids */
 $(".class").addClass("className"); /* add a class to Classes */
@@ -36,7 +36,7 @@ $("#target").css("background-color", "red"); /* Add a CSS property to a target *
 
 ###Disable/Remove an element
 
-{% highlight js %}
+{% highlight javascript %}
 
 $("#target1").prop("disabled", true); /* set state to disabled */
 $("#target").remove() /* remove the target */
@@ -45,7 +45,7 @@ $("#target").remove() /* remove the target */
 
 ###Move elements from one container to another
 
-{% highlight js %}
+{% highlight javascript %}
 
 $("#target2").appendTo("#right-well");
 
@@ -53,7 +53,7 @@ $("#target2").appendTo("#right-well");
 
 ###Daisy Chaining Functions
 
-{% highlight js %}
+{% highlight javascript %}
 
 ("#target").clone().appendTo("#targeLocation"); /* aka join functions, in this case copy or clone the target and move it to the new location */
 
@@ -61,7 +61,7 @@ $("#target2").appendTo("#right-well");
 
 ###Modifying parent/child elements
 
-{% highlight js %}
+{% highlight javascript %}
 
 ("#target").parent().css("background-color", "red"); /* modify the parent of the target */
 ("#target").children().css("background-color", "red"); /* modify the child of the target */
@@ -70,7 +70,7 @@ $("#target2").appendTo("#right-well");
 
 ###Target the nth-child(n) css selector
 
-{% highlight js %}
+{% highlight javascript %}
 
 (".target:nth-child(2)").addClass("animated bounce"); /* bounce the 2nd element with class target */
 
@@ -80,7 +80,7 @@ $("#target2").appendTo("#right-well");
 
 Note: jQuery starts with index 0
 
-{% highlight js %}
+{% highlight javascript %}
 
 (".target:even").addClass("animated shake");
 
