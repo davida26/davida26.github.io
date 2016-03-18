@@ -1,6 +1,8 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      Rouge
+kramdown:      
+  input: GFM
+  syntax_highlighter: rouge
 excerpt_separator: "\n\n"
 gems: [jekyll-paginate]
 
