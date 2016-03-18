@@ -28,17 +28,17 @@ These are located in the configuration file: *php.ini*
 
 There are many ways to search for the file. One quick way is to search your server for php.ini or any file is using the following:
 
-{% highlight bash %}
+``` bash
 sudo find / -name php.ini
-{% endhighlight %}
+```
 
 This approach is quick and will find the file you need but will also reveal [several other php.ini](http://askubuntu.com/questions/356968/find-the-correct-php-ini-file) files. The one you want is the one for apache. Located here:
 
-{% highlight bash %}
+``` bash
 
 /etc/php5/apache2/php.ini
 
-{% endhighlight %}
+```
 
 So now you found your file. Now we need to edit a few areas within this file to increase our limits and upload our DB file.
 
@@ -58,11 +58,11 @@ Everything looked ok until I noticed that my file was 7.5M. So ofcourse, this wa
 
 ##Editing the file
 
-{% highlight bash %} 
+``` bash 
 
 Sudo nano /etc/php5/apache2/php.ini
 
-{% endhighlight %}
+```
 
 Use control + W (^W) to find the line in the file: *upload\_max\_filesize*
 

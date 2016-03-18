@@ -17,15 +17,15 @@ Using and installing composer has been super easy. Almost no learning curve and 
 
 To get started with composer simply go to [getcomposer.org] (https://getcomposer.org/) and hit download. You will be presented with different options depending on your system. In my case, I am on OSX so i ran the following command:
 
-{% highlight bash %}
+``` bash
 
 curl -sS https://getcomposer.org/installer | php
 
-{% endhighlight %}
+```
 
 This will install composer and get all the required files for you. When it completes you should have something like this:
 
-{% highlight bash %}
+``` bash
 
 ➜  ~  curl -sS https://getcomposer.org/installer | php
 #!/usr/bin/env php
@@ -36,7 +36,7 @@ Downloading...
 Composer successfully installed to: /Users/David/composer.phar
 Use it: php composer.phar
 
-{% endhighlight %}
+```
 
 Notice the last line tells you how to use it. This of course is not very practical because this would mean that everytime I want to use composer I would have to type *composer.phar*
 
@@ -44,11 +44,11 @@ Notice the last line tells you how to use it. This of course is not very practic
 
 Fix is simple. All you need to do is move the *composer.phar* to your your local *bin* directory. Notice that we are moving it there into its own directory called composer.
 
-{% highlight bash %}
+``` bash
 
 mv composer.phar /usr/local/bin/composer
 
-{% endhighlight %}
+```
 
 And bingo. You are all set to get started with composer. So lets test it.
 
@@ -56,11 +56,11 @@ And bingo. You are all set to get started with composer. So lets test it.
 
 Let's start testing composer to make sure our install works. In your CLI type in the following:
 
-{% highlight bash %}
+``` bash
 
 composer
 
-{% endhighlight %}
+```
 
 this will run composer and give you all its option. If you see the list you are good to go!
 
@@ -70,11 +70,11 @@ So of course Composer is great if you use it to add what you need for your proje
 
 To use composer to install Laravel I used the following command:
 
-{% highlight bash %}
+``` bash
 
 composer create-project laravel/laravel lavarel-app
 
-{% endhighlight %}
+```
 
 This will install all the dependancies Laravel needs and Laravel itself.
 

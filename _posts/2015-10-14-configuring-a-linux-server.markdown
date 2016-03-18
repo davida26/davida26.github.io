@@ -60,11 +60,11 @@ Linux will attempt to identify the present location of your server. Adjust for c
 <strong>Partition Disks - Remove USB</strong>
 If you are using the USB boot, it will detect is as:
 
-{% highlight bash %}
+``` bash
 
 /dev/sda
 
-{% endhighlight %}
+```
 
 Select the option to unmount it since it will no longer be needed.
 
