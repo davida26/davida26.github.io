@@ -1,10 +1,13 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      Rogue
 excerpt_separator: "\n\n"
+gems: [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty
+
+
 
 # Setup
 title:            CuratedCode
