@@ -4,7 +4,7 @@ title: Using jQuery to Change Elements and CSS
 ---
 
 
-##Using jQuery to change elements and css
+<strong>Using jQuery to change elements and CSS</strong>
 
 When I was first starting out with jQuery, I was a huge fan of the [jQuery Docs] (http://api.jquery.com/). It is a great resource to learn more about functions, how to use them, parameters available, etc. 
 
@@ -22,7 +22,7 @@ $(document).ready(function {
 });
 ```
 
-###Manipulate by adding a class or CSS
+### Manipulate by adding a class or CSS
 
 ``` javascript
 
@@ -34,7 +34,7 @@ $("#target").css("background-color", "red"); /* Add a CSS property to a target *
 
 ```
 
-###Disable/Remove an element
+### Disable/Remove an element
 
 ``` javascript
 
@@ -43,7 +43,7 @@ $("#target").remove() /* remove the target */
 
 ```
 
-###Move elements from one container to another
+### Move elements from one container to another
 
 ``` javascript
 
@@ -51,7 +51,7 @@ $("#target2").appendTo("#right-well");
 
 ```
 
-###Daisy Chaining Functions
+### Daisy Chaining Functions
 
 ``` javascript
 
@@ -59,7 +59,7 @@ $("#target2").appendTo("#right-well");
 
 ```
 
-###Modifying parent/child elements
+### Modifying parent/child elements
 
 ``` javascript
 
@@ -68,7 +68,7 @@ $("#target2").appendTo("#right-well");
 
 ```
 
-###Target the nth-child(n) css selector
+### Target the nth-child(n) css selector
 
 ``` javascript
 
@@ -76,7 +76,7 @@ $("#target2").appendTo("#right-well");
 
 ```
 
-###Target the odd/even elements
+### Target the odd/even elements
 
 Note: jQuery starts with index 0
 

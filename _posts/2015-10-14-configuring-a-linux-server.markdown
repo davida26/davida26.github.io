@@ -3,7 +3,7 @@ layout: post
 title: Configuring a Linux Server - Part 1
 ---
 
-##Part 1 - Basic Linux Server Install
+<strong>Part 1 - Basic Linux Server Install</strong>
 
 We will go through the entire installation process from creating a bootable USB drive to setting up a basic Linux Server. Part 2 will cover partitioning our drives (more advanced) and installing packages. 
 
@@ -60,7 +60,7 @@ Linux will attempt to identify the present location of your server. Adjust for c
 <strong>Partition Disks - Remove USB</strong>
 If you are using the USB boot, it will detect is as:
 
-``` bash
+``` shell
 
 /dev/sda
 

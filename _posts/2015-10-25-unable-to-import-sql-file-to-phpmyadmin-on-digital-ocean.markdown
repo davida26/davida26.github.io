@@ -12,11 +12,11 @@ Error Resource: [Found Here.](http://docs.phpmyadmin.net/en/latest/faq.html#faq1
 Sample Error:
 ![Problem with SQL Import]({{site.url}}/assets/UnableToImportSQL.png)
 
-##Lets Get Started
+## Lets Get Started
 
 So the main problem here is that the server has been either modified with lower limits (some hosting companies do this) or the defaults (as in my case using Digital Ocean) are too low. Whatever the case may be, its an easy fix.
 
-##The Main Culprits
+## The Main Culprits
 
 1. upload\_max\_filesize
 2. memory_limit
@@ -24,7 +24,7 @@ So the main problem here is that the server has been either modified with lower 
 
 These are located in the configuration file: *php.ini*
 
-##Finding the file
+## Finding the file
 
 There are many ways to search for the file. One quick way is to search your server for php.ini or any file is using the following:
 
@@ -42,7 +42,7 @@ This approach is quick and will find the file you need but will also reveal [sev
 
 So now you found your file. Now we need to edit a few areas within this file to increase our limits and upload our DB file.
 
-##General Formula
+## General Formula
 
 post\_max\_size and memory_limit > upload\_max\_filesize
 
@@ -56,7 +56,7 @@ Now in my case the defaults were set to:
 
 Everything looked ok until I noticed that my file was 7.5M. So ofcourse, this was way over my max\_upload\_filesize. 
 
-##Editing the file
+## Editing the file
 
 ``` bash 
 
