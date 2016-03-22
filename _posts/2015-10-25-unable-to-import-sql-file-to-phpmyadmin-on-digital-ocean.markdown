@@ -34,10 +34,8 @@ sudo find / -name php.ini
 
 This approach is quick and will find the file you need but will also reveal [several other php.ini](http://askubuntu.com/questions/356968/find-the-correct-php-ini-file) files. The one you want is the one for apache. Located here:
 
-``` bash
-
+```bash
 /etc/php5/apache2/php.ini
-
 ```
 
 So now you found your file. Now we need to edit a few areas within this file to increase our limits and upload our DB file.
