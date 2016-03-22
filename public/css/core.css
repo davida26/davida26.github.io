@@ -317,7 +317,50 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 4em;
 }
 
+/* Home Page */
+.cc-main-titles{
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+.cc-main-titles a{
+  text-decoration: none;
+}
+/* Underline From Center */
+.u-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.u-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098d1;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.u-from-left:hover:before, .u-from-left:focus:before, .u-from-left:active:before {
+  right: 0;
+}
+
+
 /* Blog post or page title */
+
 .page-title,
 .post-title,
 .post-title a {
@@ -351,7 +394,8 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts li small {
   font-size: 75%;
-  color: #999;
+  color: #999 !important;
+  font-weight: 300;
 }
 .related-posts li a:hover {
   color: #268bd2;
