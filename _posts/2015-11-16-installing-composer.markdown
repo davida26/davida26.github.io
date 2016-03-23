@@ -15,7 +15,7 @@ Composer is a dependancy manager for PHP. If you are new to PHP, this basically 
 
 Using and installing composer has been super easy. Almost no learning curve and maximum efficiency with regards to prioritizing your development time to features you actually need to build.
 
-To get started with composer simply go to [getcomposer.org] (https://getcomposer.org/) and hit download. You will be presented with different options depending on your system. In my case, I am on OSX so i ran the following command:
+To get started with composer simply go to [getcomposer.org](https://getcomposer.org/) and hit download. You will be presented with different options depending on your system. In my case, I am on OSX so i ran the following command:
 
 ``` bash
 
@@ -90,7 +90,7 @@ You may be wondering how I knew what to type above. Well, I didn't actually. How
 
 ## More about Composer
 
-Ofcourse there is much more you can do with composer. I highly encourage you to read the [Composer docs] (https://getcomposer.org/). It is pretty robust and provides everything you need to extend your composer knowledge.
+Ofcourse there is much more you can do with composer. I highly encourage you to read the [Composer docs](https://getcomposer.org/). It is pretty robust and provides everything you need to extend your composer knowledge.
 
 
 

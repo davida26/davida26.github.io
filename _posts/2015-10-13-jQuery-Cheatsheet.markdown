@@ -1,18 +1,21 @@
 ---
 layout: post
 title: Using jQuery to Change Elements and CSS
+description: Basic jQuery functions for manipulating elements.
 ---
 
 
 <strong>Using jQuery to change elements and CSS</strong>
 
-When I was first starting out with jQuery, I was a huge fan of the [jQuery Docs] (http://api.jquery.com/). It is a great resource to learn more about functions, how to use them, parameters available, etc. 
+When I was first starting out with jQuery, I was a huge fan of the [jQuery Docs](http://api.jquery.com/). It is a great resource to learn more about functions, how to use them, parameters available, etc. 
 
 However, there was one problem. I did not know where to start. I knew what I wanted to do but it would take several search queries just to find it. Then it would involve reading the resource and applying it. I could of saved a ton of time if I had everything presented right then and there with a quick description and example.
 
 So here is an ongoing compilation of useful jQuery functions. Simple functions to manipulate html elements and css using jQuery. 
 
-###Basic jQuery function
+<strong>Note:</strong> A purist approach is always better. If you can do it in pure JavaScript, you are ahead of the curve.
+
+### Basic jQuery function
 
 If you're a beginner this is the starting foundation. You want to run your jQuery after the page has loaded to avoid any errors.
 

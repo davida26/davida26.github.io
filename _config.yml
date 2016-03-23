@@ -13,8 +13,8 @@ permalink:        pretty
 
 # Setup
 title:            CuratedCode
-tagline:          'Web Apps, Design, Experiments and Awesome Projects'
-description:      'Web Experiments and Awesome Projects'
+tagline:          'Web Apps, Design & Experiments'
+description:      'Web Apps, Design & Experiments. A collection of research interests by David Aviles.'
 url:              http://CuratedCode.com
 baseurl:          /
 
