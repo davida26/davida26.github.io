@@ -375,8 +375,12 @@ tbody tr:nth-child(odd) th {
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+  margin-bottom: 0rem;
+  color: #C7C7C7;
+}
+
+.tldr{
+  font-style: italic;
 }
 
 /* Related posts */
