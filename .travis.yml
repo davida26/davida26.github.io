@@ -4,7 +4,7 @@ sudo: false
 language: ruby
 
 rvm:
-  - &ruby1 2.3.0
+  - 2.3.0
 
 matrix:
   fast_finish: true
