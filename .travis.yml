@@ -6,6 +6,9 @@ language: ruby
 rvm:
   - 2.3.0
 
+install:
+- bundle install
+
 matrix:
   fast_finish: true
   allow_failures:
