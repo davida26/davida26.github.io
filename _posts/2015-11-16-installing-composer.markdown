@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with Composer
+description: A short introduction to composer. How to install composer, commmon installation errors and basic usage. Composer is a dependency manager for PHP.
 ---
 
 The web ecosystem of today is revolutionary. Everyday we are creating new tools, frameworks, standards and engineering new ideas to push further. This weekend I decided to take up exploring a PHP framework called Laravel. Coming from a RoR background, I was familiar with the MVC architecture behind it. It was also fun to explore and evaluate its potential because it took me back to my early days. Days where I was working for a local web company building WordPress powered sites. Overall, I figured laravel would be a good fit to re-tinker with PHP and expand on MVC.

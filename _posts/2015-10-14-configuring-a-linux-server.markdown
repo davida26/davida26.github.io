@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Configuring a Linux Server - Part 1
+description: Simple walkthrough of setting up a linux server. Basic introduction to Ubuntu LTS 14.04 installation options.
 ---
 
 <strong>Part 1 - Basic Linux Server Install</strong>

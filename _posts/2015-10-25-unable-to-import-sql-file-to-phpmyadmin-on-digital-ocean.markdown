@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unable to Import SQL File to phpMyAdmin
+description: How to fix maximum file size exceeded error when attempting to import SQL file. 
 ---
 
 Problem: Unable to Import SQL File to phpMyAdmin on Ubuntu Server Hosted on Digital Ocean
