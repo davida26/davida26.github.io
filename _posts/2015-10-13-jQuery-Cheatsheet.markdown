@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using jQuery to Change Elements and CSS
+category: jQuery
 description: Basic jQuery functions for manipulating elements.
 ---
 
