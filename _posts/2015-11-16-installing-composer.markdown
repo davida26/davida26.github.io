@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with Composer
+category: PHP
 description: A short introduction to composer. How to install composer, commmon installation errors and basic usage. Composer is a dependency manager for PHP.
 ---
 

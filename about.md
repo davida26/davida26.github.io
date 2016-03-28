@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Curated Code is my latest project designed to centralize my notes and information. Through this [Jekyll] (https://jekyllrb.com/) powered site, I intend to record my experiments, discoveries and random ramblings about the web and technology. It also showcases my profiency with Markdown language and Git. The resource is primarily built for me as a reference but if your search query landed you here then more power to you. I hope it this collection of knowledge helps readers like you dig deeper into the web and innovate some projects of your own.
+Curated Code is my latest project designed to centralize my notes and information. Through this [Jekyll](https://jekyllrb.com/) powered site, I intend to record my experiments, discoveries and random ramblings about the web and technology. It also showcases my profiency with Markdown language and Git. The resource is primarily built for me as a reference but if your search query landed you here then more power to you. I hope it this collection of knowledge helps readers like you dig deeper into the web and innovate some projects of your own.
 
 Given the present page you are at, you probably want to know a little more about me and if you don't, well read on anyway - maybe you will get a laugh out of it. So without any further ado, here is my story...
 
