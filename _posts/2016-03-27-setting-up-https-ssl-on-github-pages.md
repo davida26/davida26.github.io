@@ -5,7 +5,7 @@ category: Security
 description: Learn how to set up GitHub Pages on HTTPS (SSL/TLS) through CloudFlare. Get a FREE SSL with CloudFlare and add HTTPS to your site.
 ---
 
-### A brief introduction to what is HTTPS and why use it
+### A brief introduction to HTTPS and why use it
 
 HTTPS is the *secured* version of HTTP (Hypertext Transport Protocol). HTTP is the protocol used to define how messages are sent or received over Internet. So why use HTTPS?  
 
