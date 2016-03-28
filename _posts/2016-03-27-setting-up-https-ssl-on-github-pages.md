@@ -9,7 +9,7 @@ description: Learn how to set up GitHub Pages on HTTPS (SSL/TLS) through CloudFl
 
 HTTPS is the *secured* version of HTTP (Hypertext Transport Protocol). HTTP is the protocol used to define how messages are sent or received over Internet. So why use HTTPS?  
 
-1. It offers a higher level of security because these messages are sent over SSL/TLS. In other words, a nifty third-part that could once have intercepted the messages by hijacking a connection will now have some difficulty. 
+1. It offers a higher level of security because these messages are sent over SSL/TLS. In other words, a nifty third-party that could once have intercepted the messages by hijacking a connection will now have some difficulty. 
 2. Good for search engine rankings as [Google has mentioned](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html).
 3. Allows your visitors to see that someone actually cares about protecting information. Notice the green lock at the top of this site.
 
@@ -17,7 +17,7 @@ HTTPS is the *secured* version of HTTP (Hypertext Transport Protocol). HTTP is t
 
 ### Adding SSL to your GitHub Page
 
-This year, I set out to update my blog and make it compliant with Google's Best Practices. As mentioned above, HTTPS pages are ranked better so lets get to it.
+This year, I set out to update my blog and make it compliant with Google's Best Practices. As mentioned above, HTTPS pages are ranked better so let's get to it.
 
 
 #### 1. Adding a custom domain name to your GitHub Page
@@ -39,7 +39,7 @@ Once that is done you, visit your new domain to make sure everything is loading 
 
 We are at the dawn of a new age where the once expensive SSL's are now attainable for personal/small projects.  So sign up and add your domain. CloudFlare will begin looking up your DNS Records and populate all the information it needs. 
 
-Note: I am assuming that you already had your site loaded and working under a domain. If you did not then you might want to do that first.  
+**Note:** I am assuming that you already had your site loaded and working under a domain. If you did not then you might want to do that first aka Step 1.  
 
 #### 3. Make sure your config.yml file is ready for https and any relevant assets
 
@@ -61,7 +61,7 @@ Google fonts should use href="//" so the browser automatically determines the ri
 
 CloudFlare will provide you these. Just add them to your Name Servers section like so:
 
-![DNS Settings for Github Pages]({{ site.url }}/assets/google-dns-servers-github-pages)
+![DNS Settings for Github Pages]({{ site.url }}/assets/google-dns-servers-github-pages.png)
 
 #### 5. Configure CloudFlare to serve HTTPS
 
@@ -77,6 +77,6 @@ Since you made it this far, you are ahead of the curve. This next part is easy, 
 
 #### 6. Grab yourself a beer
 
-You have now added https to your site.
+Congratulations! You have now added https to your site.
 
 
