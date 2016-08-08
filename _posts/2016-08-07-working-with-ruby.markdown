@@ -7,12 +7,11 @@ description: Ruby is an open source language focused on simplicity. It provides 
 
 # Getting Started
 
-For an indepth overview at what ruby is please visit the official [Ruby Website](https://www.ruby-lang.org/en/)
+For an indepth overview of Ruby, please visit the official [Ruby Website.](https://www.ruby-lang.org/en/) Tutorials on how to setup Ruby can also be found there. This will concentrate on code samples showing key Ruby concepts and syntax.
 
 
 ## Code Samples
-
-Designed to show an introduction to key concepts.
+<hr>
 
 
 ### 1. Variables, Output & Calculations
