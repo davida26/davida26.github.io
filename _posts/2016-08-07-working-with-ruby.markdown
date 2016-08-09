@@ -434,13 +434,22 @@ to_sym
 ```
 
 ## 14. Escape Sequences
-- \\ Backslash
-- \' Single Quote
-- \" Double Quote
-- \a Bell
-- \b Backspace
-- \c Formfeed
-- \n Newline
-- \r Carriage
-- \t Tab
-- \v Vertical Tab
+/\\ Backslash
+/\' Single Quote
+/\" Double Quote
+/\a Bell
+/\b Backspace
+/\c Formfeed
+/\n Newline
+/\r Carriage
+/\t Tab
+/\v Vertical Tab
+
+## 15. Objects
+
+Everything is an object in ruby.
+We model real world objects using classes.
+Every object has attributes also called instance variables
+Every object capibilities also called methods
+
+
