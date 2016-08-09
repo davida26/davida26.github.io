@@ -434,17 +434,18 @@ to_sym
 ```
 
 ## 14. Escape Sequences
-/\\ Backslash
-/\' Single Quote
-/\" Double Quote
-/\a Bell
-/\b Backspace
-/\c Formfeed
-/\n Newline
-/\r Carriage
-/\t Tab
-/\v Vertical Tab
-
+```ruby
+# \\ Backslash
+# \' Single Quote
+# \" Double Quote
+# \a Bell
+# \b Backspace
+# \c Formfeed
+# \n Newline
+# \r Carriage
+# \t Tab
+# \v Vertical Tab
+```
 ## 15. Objects
 
 Everything is an object in ruby.
