@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Working with the Ruby Programming Language
+title: 22 Ruby Programming Language Examples
 category: Ruby
-description: Ruby is an open source language focused on simplicity. It provides syntax that is easy to read and compose. Ideal for web development using the Ruby on Rails web framework.
+description: Ruby is an open source language focused on simplicity. It provides syntax that is easy to read and compose. 22 Ruby Examples to cover everything you need to get started with Ruby.
 ---
 
 # Getting Started
@@ -673,7 +673,7 @@ new_bird.tweet(Cardinal.new)
 new_bird.tweet(Owl.new)
 ```
 
-## 19. Symbols
+## 18. Symbols
 
 - Symbols are strings that cannot be changed
 - Useful for string comparison and to conserve memory
@@ -697,7 +697,7 @@ puts :david.class
 puts :david.object_id
 ```
 
-## 20. Arrays
+## 19. Arrays
 
 ```ruby
 # Creating arrays
@@ -760,7 +760,7 @@ array_4.each do |value|
 end
 ```
 
-## 21. Hashes
+## 20. Hashes
 
 - Collection of key value pairs
 
@@ -810,7 +810,7 @@ superheroes.delete("Barry Allen")
 puts "Size of Hash : " + superheroes.size.to_s
 ```
 
-## 22. Enumerable
+## 21. Enumerable
 
 - Allows a class to gains collection capabilities like hashes
 - Must include a function called each
@@ -869,7 +869,7 @@ p menu_options.sort
 menu_options.reverse_each {|item| puts item}
 ```
 
-## 23. File Input / Output
+## 22. File Input / Output
 
 ```ruby
 # Create a file for writing
