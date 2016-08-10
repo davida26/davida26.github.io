@@ -637,3 +637,276 @@ printf "%s says %s", einstein.name, einstein.act_smart()
 ```
 
 ## 17. Polymorphism
+
+- Ruby relies less on the type (class) of an object and more on its capabilities.
+- If it walks like a duck and talks like a duck, then Ruby treats it as a duck.
+- Statically typed languages use duck typing to achieve polymorphism
+
+```ruby
+# We create a class called Bird with a generic method to perform the tweet
+class Bird
+	def tweet(bird_type)
+		bird_type.tweet
+	end
+end
+
+# Cardinal is created and inherits Bird, tweets
+class Cardinal < Bird
+	def tweet
+		puts "Tweet"
+	end
+end
+
+# Owl is created and inherits Bird, Hoots
+class Owl < Bird
+	def tweet
+		puts "Hoot Hoot"
+	end
+end
+
+# now we create the bird
+new_bird = Bird.new
+
+# and we pass the type to the tweet method to output the correct sound
+# again we create a new bird of each type
+new_bird.tweet(Cardinal.new)
+new_bird.tweet(Owl.new)
+```
+
+## 19. Symbols
+
+- Symbols are strings that cannot be changed
+- Useful for string comparison and to conserve memory
+- Useful to pass data if the string value doesn't change or requires access to string methods
+- Occur as keys in hashes
+
+```ruby
+# symbol
+:david
+
+# output to see what it looks like
+puts :david
+
+# convert to a string
+puts :david.to_s
+
+# what type is it? Symbol
+puts :david.class
+
+# get the object id
+puts :david.object_id
+```
+
+## 20. Arrays
+
+```ruby
+# Creating arrays
+ 
+array_1 = Array.new
+array_2 = Array.new(5) # Gets nil as default
+array_3 = Array.new(5, "empty")
+array_4 = [1,"two",3,5.5] # You can store multiple object types
+ 
+puts array_1
+puts array_2
+puts array_3
+puts array_4
+ 
+# Indexes start at 0
+puts array_4[2]
+ 
+# Return 2 values starting at the 2nd index
+puts array_4[2,2].join(", ")
+ 
+# Return values in index 0, 1 and 3
+puts array_4.values_at(0,1,3).join(", ")
+ 
+# Add 0 at the beginning of the array
+array_4.unshift(0)
+puts array_4.join(", ")
+ 
+# Remove the first item in the array
+array_4.shift()
+puts array_4.join(", ")
+ 
+# Add 100 and 200 to the end of the array
+array_4.push(100, 200)
+puts array_4.join(", ")
+ 
+# Remove item at the end of the array
+array_4.pop
+puts array_4.join(", ")
+ 
+# Add one array to the end of another
+array_4.concat([10,20,30])
+puts array_4.join(", ")
+ 
+# Array Methods
+ 
+puts "Array Size : " + array_4.size().to_s
+puts "Array Contains 100 : " + array_4.include?(100).to_s
+puts "How Many 100s : " + array_4.count(100).to_s
+puts "Array Empty : " + array_4.empty?.to_s
+ 
+# Convert an array into a string
+puts array_4.join(", ")
+ 
+# Print and Inspect the array
+p array_4
+ 
+# Output array in loop
+array_4.each do |value|
+  puts value
+end
+```
+
+## 21. Hashes
+
+- Collection of key value pairs
+
+```ruby
+# create key / value pair
+number_hash = { "PI" => 3.14,
+				"Golden" => 1.619, 
+				 "e" => 2.718 }
+
+#output the value of the hash called PI
+puts number_hash["PI"]
+
+# Based on the order 
+superheroes = Hash["Clark Kent", "Superman", "Bruce Wayne", "Batman"]
+puts superheroes["Clark Kent"]
+
+# Add to a hash
+superheroes["Barry Allen"] = "Flash"
+puts superheroes["Barry Allen"]
+ 
+# Set a default key value
+samp_hash = Hash.new("No Such Key")
+puts samp_hash["Dog"]
+ 
+superheroines = Hash["Lisa Morel", "Aquagirl", "Betty Kane", "Batgirl"]
+ 
+# Combine 2 hashes in a destructive way with update or with no overwriting
+# with merge
+ 
+superheroes.update(superheroines)
+ 
+# Print out each key and value
+ 
+superheroes.each do |key, value|
+  puts key.to_s + ' : ' + value
+end
+ 
+puts "Has Key Lisa Morel : " + superheroes.has_key?("Lisa Morel").to_s
+puts "Has Value Batman : " + superheroes.has_value?("Batman").to_s
+puts "Is Hash Empty : " + superheroes.empty?.to_s
+puts "Size of Hash : " + superheroes.size.to_s
+ 
+# Delete a key value
+ 
+superheroes.delete("Barry Allen")
+ 
+puts "Size of Hash : " + superheroes.size.to_s
+```
+
+## 22. Enumerable
+
+- Allows a class to gains collection capabilities like hashes
+- Must include a function called each
+
+```ruby
+class Menu
+  include Enumerable
+ 
+  # Each provides items one at a time
+ 
+  def each
+    yield "pizza"
+    yield "spaghetti"
+    yield "salad"
+    yield "bread"
+    yield "water"
+  end
+end
+ 
+menu_options = Menu.new
+ 
+# We can cycle through all the options
+ 
+menu_options.each do |item|
+  puts "Would you like : #{item}"
+end
+ 
+# Check to see if we have pizza
+p menu_options.find {|item| item == "pizza"}
+ 
+# Return items 5 letters in length
+p menu_options.select {|item| item.size <= 5}
+ 
+# Reject items that meet the criteria
+p menu_options.reject {|item| item.size <= 5}
+ 
+# Return the first item
+p menu_options.first
+ 
+# Return the first 2
+p menu_options.take(2)
+ 
+# Return the everything except the first 2
+p menu_options.drop(2)
+ 
+# Return the minimum item
+p menu_options.min
+ 
+# Return the maximum item
+p menu_options.max
+ 
+# Sort the items
+p menu_options.sort
+ 
+# Return each item in reverse order
+menu_options.reverse_each {|item| puts item}
+```
+
+## 23. File Input / Output
+
+```ruby
+# Create a file for writing
+file = File.new("authors.out", "w")
+ 
+# Add lines
+file.puts "William Shakespeare"
+file.puts "Agatha Christie"
+file.puts "Barbara Cartland"
+ 
+# Close file
+file.close
+ 
+# Output everything in the file
+puts File.read("authors.out")
+ 
+# Open file for appending
+file = File.new("authors.out", "a")
+file.puts "Danielle Steel"
+file.close
+puts File.read("authors.out")
+ 
+# Create another file containing data separated by commas
+file = File.new("author_info.out", "w")
+file.puts "William Shakespeare,English,plays and poetry,4 billion"
+file.puts "Agatha Christie,English,who done its,4 billion"
+file.puts "Barbara Cartland,English,romance novels,1 billion"
+file.puts "Danielle Steel,English,romance novels,800 million"
+file.close
+ 
+# Cycle through the data to write a sentence
+File.open("author_info.out") do |record|
+  record.each do |item|
+ 
+    # Split each line into 4 parts based on commas
+    name, lang, specialty, sales = item.chomp.split(',')
+    puts "#{name} was an #{lang} author that specialized in #{specialty}. They sold over #{sales} books."
+  end
+end
+```
