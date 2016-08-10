@@ -446,11 +446,194 @@ to_sym
 # \t Tab
 # \v Vertical Tab
 ```
+
 ## 15. Objects
 
 Everything is an object in ruby.
 We model real world objects using classes.
 Every object has attributes also called instance variables
-Every object capibilities also called methods
+Every object capabilities also called methods
+
+```ruby
+# initialize with setters and getters (long way)
+
+class Animal
+	def initialize
+		puts "Creating a new animal"
+	end
+
+	def set_name(new_name)
+		#instence var @
+		@name = new_name
+	end
+
+	#getter
+	def get_name
+		@name
+	end
+
+	# get a value
+	def name
+		@name
+	end
+
+	# another way to do a setter method
+	def name=(new_name)
+		if new_name.is_a?(Numeric)
+			puts "Name cant be a number"
+		else
+			@name = new_name
+		end
+	end
+end
+
+# create a new animal
+
+cat = Animal.new
+
+# set the name - method 1
+cat.set_name ("Fluffy")
+
+# get the name - method 1
+puts cat.get_name
+
+# way to get name - method 2
+puts cat.name
+
+# set the name - method 2
+cat.name = "Fluffy"
+puts cat.name
 
 
+
+
+#--------------------------
+# improved animal class
+
+class Dog
+	# attr_accessor creates all the getters and setters
+	attr_accessor :name, :height, :weight
+
+	def bark
+		return "woof"
+	end
+end
+
+rover = Dog.new
+rover.name = "Rex"
+
+puts rover.name
+
+
+# inherit from Dog
+class GermanShepard < Dog
+	# override method
+	def bark
+		return "loud bark"
+	end
+end
+
+# create new german shepard
+max = GermanShepard.new
+max.name = "Max"
+
+# formatted printing
+printf "%s goes %s \n", max.name, max.bark()
+
+# %s for string
+# %d for integers
+# %f for floats
+# %.3f would print float with 3 decimals
+```
+
+# 16. Modules
+
+- Made up of methods and instance variables
+- Cant be instantiated, in other words cant turn them into an object
+- Used to add functionality to a class
+- Classes can only inherit one class but they <strong>can</strong>
+inherit multiple modules
+- Modules should be in their own files include with:
+
+```ruby
+require_relative file
+```
+
+<p><strong>Sample Module 1 - Human.rb</strong></p>
+``ruby
+# module name human
+module Human
+	# create getters and setters
+	attr_accessor :name, :height, :weight
+
+	# create a method
+	def run
+		puts self.name + "runs"
+	end
+end
+```
+
+<p><strong>Sample Module 2 - Smart.rb</strong></p>
+
+```ruby
+module Smart
+	def act_smart
+		return "E = MC2"
+	end
+end
+```
+
+<p><strong>Main File with Modules Included</strong></p>
+
+```ruby
+require_relative "prg1"
+require_relative "prg2"
+
+# create another module to show in different places
+# recommended is to add in diff files
+module Animal
+	def make_sound
+		puts "woof"
+	end
+end
+
+# new class dog that includes the animal module
+class Dog
+	include Animal
+end
+
+rover = Dog.new
+
+rover.make_sound
+```
+
+<p><strong>Main File with New Class Added - Uses Prepend</strong></p>
+
+```ruby
+#--------------------------------
+# create a new class, include the modules
+
+class Scientist
+	include Human
+	# prepend supercedes all other modules
+	prepend Smart
+
+	# example module, overriden by prepend
+	def act_smart
+		return "e = mc^2"
+	end
+end
+
+einstein = Scientist.new
+
+einstein.name = "Albert"
+
+puts einstein.name
+
+# run the method
+einstein.run
+
+printf "%s says %s", einstein.name, einstein.act_smart()
+```
+
+## 17. Polymorphism
