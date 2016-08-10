@@ -546,7 +546,7 @@ printf "%s goes %s \n", max.name, max.bark()
 # %.3f would print float with 3 decimals
 ```
 
-# 16. Modules
+## 16. Modules
 
 - Made up of methods and instance variables
 - Cant be instantiated, in other words cant turn them into an object
