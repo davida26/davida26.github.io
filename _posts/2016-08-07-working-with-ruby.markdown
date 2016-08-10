@@ -14,7 +14,7 @@ For an indepth overview of Ruby, please visit the official [Ruby Website.](https
 <hr>
 
 
-### 1. Variables, Output & Calculations
+## 1. Variables, Output & Calculations
 
 Prompt the user to enter 2 numbers, store it in variables and perform calculation.
 
@@ -44,7 +44,7 @@ puts first_num.to_s + " + " + second_num.to_s + " = " +
 ruby myNumber.rb
 ```
 
-### 2. Float Arithmetic
+## 2. Float Arithmetic
 
 Always slightly off after 14 digits
 
@@ -56,7 +56,7 @@ puts ( big_float + 0.0000000000005).to_s
 
 Will be slightly off at the end.
 
-### 3. Check type of data
+## 3. Check type of data
 
 Everything inside Ruby is an object. Can be proved by:
 
@@ -67,7 +67,7 @@ puts "MYString".class
 ```
 
 
-### 4. Writing to a File, Reading and Outputting Content
+## 4. Writing to a File, Reading and Outputting Content
 
 ```ruby
 # Create a new file if it doesnt exist and write to it
@@ -86,13 +86,13 @@ data_from_file = File.read("myTextFile.out")
 puts "Data From File:" + data_from_file
 ```
 
-### 5. Execute code from a file
+## 5. Execute code from a file
 
 ```ruby
 load "prg1.rb"
 ```
 
-### 6. Comments
+## 6. Comments
 
 ```ruby
 =begin
@@ -101,7 +101,7 @@ Comment
 =end
 ```
 
-### 7. Conditional Operations
+## 7. Conditional Operations
 
 ```ruby
 puts "Enter Your Age: "
