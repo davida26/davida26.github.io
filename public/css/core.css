@@ -460,3 +460,33 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+
+/*
+ * Categories
+ * 
+ * Category page /topics-collection/
+ * 
+ */
+
+ul li{
+  list-style: none;
+  border-bottom:1px solid #eee;
+  margin: 10px auto;
+}
+
+li a{
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: none;
+}
+
+li a:visited, li a:active{
+  text-decoration: none;
+}
+
+.cat-list{
+  margin: 2rem auto;
+}
