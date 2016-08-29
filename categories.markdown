@@ -6,7 +6,7 @@ description: View all categories and articles on CuratedCode.com
 sitemap: false
 ---
 
-<div class="page">
+<div class="page" id="category-page">
   <h1 class="page-title">{{title}}</h1>
   <p>A collection of topics, otherwise called categories.</p>
       <ul class="message">
@@ -33,6 +33,8 @@ sitemap: false
       
         <h3><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
          <p>{{ post.description | strip_html | truncate: 160 }}</p>
+    
+    <hr />
 
       {%endif%}
       {% endfor %}

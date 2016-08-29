@@ -469,21 +469,21 @@ a.pagination-item:hover {
  * 
  */
 
-ul li{
+#category-page ul li{
   list-style: none;
   border-bottom:1px solid #eee;
   margin: 10px auto;
 }
 
-li a{
+#category-page li a{
   text-decoration: none;
 }
 
-li a:hover{
+#category-page li a:hover{
   text-decoration: none;
 }
 
-li a:visited, li a:active{
+#category-page li a:visited, li a:active{
   text-decoration: none;
 }
 
