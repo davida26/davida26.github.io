@@ -23,7 +23,7 @@ sitemap: false
 
     <div class="cat-list">
       {% for category in categories %}
-      <a name="{{ category[0] }}"></a>
+      <a name="{{ category[0]  | slugify }}"></a>
       <h2>
       {{ category[0] | replace:'-', ' ' }} ({{ category | last | size }}) </h2>
       {% assign sorted_posts = site.posts | sort: 'title' %}
@@ -40,3 +40,22 @@ sitemap: false
       {% endfor %}
     </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+  $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
