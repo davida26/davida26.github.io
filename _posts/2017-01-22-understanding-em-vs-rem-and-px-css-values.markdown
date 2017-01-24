@@ -62,7 +62,7 @@ The compounding effect is created because em's are relative to the font-size fo 
 
 Using traditional px you would expect the child element to be smaller than the parent. However, since we are using ems this is what occurs:
 
-```
+```tex
 2 (em) x 16px (default doc font size) = 32px = parent
 
 2 (em) x 1.5 (em) x 16px (default doc font size) = 48px = child
