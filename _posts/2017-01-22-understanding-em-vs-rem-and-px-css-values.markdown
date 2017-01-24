@@ -28,7 +28,7 @@ Using the definition, 16px = 1em*
 <strong>Example 2:</strong>
 So if we have an element with font-size: 1em and we want to make another 2x larger we can do the following:
 
-```
+```css
 font-size: 2em;
 ```
 This will cause the font-size to convert to 32px.
@@ -43,13 +43,13 @@ The compounding effect is created because em's are relative to the font-size fo 
 
 <strong>Here is an example:</strong>
 
-```
+```html
 <div class="parent">
 	<p class="child">Hello World</p>
 </div>
 ```
 
-```
+```css
 .parent{
 	font-size: 2em;
 }
@@ -73,7 +73,7 @@ Thanks to CSS3 the <strong>rem</strong> was introduced. It simply means the "roo
 
 <strong>*rem*s can be defined as follows:</strong>
 
-```html
+```css
 html{
 	font-size: 62.5% /* we are using the baseline (see note above) to convert 16px to 10px */
 }
