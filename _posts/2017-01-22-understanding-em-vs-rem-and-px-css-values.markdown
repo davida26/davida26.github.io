@@ -60,8 +60,11 @@ The compounding effect is created because em's are relative to the font-size fo 
 
 Using traditional px you would expect the child element to be smaller than the parent. However, since we are using ems this is what occurs:
 
+```
 2 (em) x 16px (default doc font size) = 32px = parent
+
 2 (em) x 1.5 (em) x 16px (default doc font size) = 48px = child
+```
 
 Well that is definitely not what you intended! Now, imagine the parent div was a child of another parent div with *em*s specified there as well? The result would be much much larger than you expected.
 
