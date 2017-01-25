@@ -1,0 +1,28 @@
+---
+layout: post
+title: Diving into Security Research - Identities and Vulnerabilities
+category: Security-Research
+description: 
+---
+
+## Defining Identity Abilities
+Before digging into how things work with regards to security. It is important to understand the identity abilities that are a foundation to why security standards have been created.
+
+1. <strong>Privacy</strong> - this is one of the key topics today. Privacy deals with protecting who you are. No one sees what you do but they may know who you are. 
+
+Examples
+- encrypted email between you and a friend. Only your friend and yourself can see this email.
+- you have privacy in your home but people know you live there.  
+
+2. <strong>Anonimity</strong> - Concealing who you are. Non-attribution to actions.
+
+Example
+- In countries where controls are high, individuals use anonimity to access resources otherwise out of reach. They protect their identity.
+
+3. <strong>Pseudo-anonimity</strong> - Concealing who you are but keeping an alias. 
+
+Example
+- You like posting on a forum but do not want people to know your real name. However, you want the attribution of the posts you create so you develop an alias.
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diving into Security Research - Introduction
-category: Security Research
+category: Security-Research
 description: An attempt to explore the vastly complex world of security.  
 ---
 
