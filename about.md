@@ -25,5 +25,5 @@ Software Engineer.
 > Every day, in every way, I'm getting better and better. <span class="quote-author">- &Eacute;mile Cou&eacute;</span>
 
 
-> I bargained with Life for a penny, <br /> and Life would pay no more, <br /> However I begged at evenining <br /> When I coundted my scanty store. <br /><br /> For Life is a just employer, <br />He gives you what you ask, <br />But once you have set the wages,<br />Why, you must bear the task.<br /><br />I worked for a menial's hire, <br />Only to learn, dismayed,<br />That any wage I had asked of Life,<br />Life would have willingly paid.<span class="quote-author">-Jessie B. Rittenhouse</span>
+> I bargained with Life for a penny, <br /> and Life would pay no more, <br /> However I begged at evening <br /> When I counted my scanty store. <br /><br /> For Life is a just employer, <br />He gives you what you ask, <br />But once you have set the wages,<br />Why, you must bear the task.<br /><br />I worked for a menial's hire, <br />Only to learn, dismayed,<br />That any wage I had asked of Life,<br />Life would have willingly paid.<span class="quote-author">-Jessie B. Rittenhouse</span>
 

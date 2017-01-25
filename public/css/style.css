@@ -22,6 +22,9 @@ html {
   html {
     font-size: 16px;
   }
+  .quote-author{
+    font-size: 14px;
+  }
 }
 @media (min-width: 58em) {
   html {
@@ -266,4 +269,5 @@ a.sidebar-nav-item:focus {
 .quote-author{
   color: #888;
   display: block;
+  font-size: 16px;
 }
