@@ -8,9 +8,10 @@ description: Defining identity abilities, security and the overall landscape.
 ## Defining Identity Abilities
 Before digging into how things work. It is important to understand the identity abilities that are a foundation to why security standards have been created. We must first understand ourselves before moving forward.
 
-1. <strong>Privacy</strong> - this is one of the key topics discussed everywhere today. The majority of people see privacy as important to have but have limited knowledge of what it actually is. In general, privacy deals with protecting what you do within some space. No one sees what you do but they may know who you are. 
+- <strong>Privacy</strong> - this is one of the key topics discussed everywhere today. The majority of people see privacy as important to have but have limited knowledge of what it actually is. In general, privacy deals with protecting what you do within some space. No one sees what you do but they may know who you are. 
 
-Examples
+Examples:
+
 - encrypted email between you and a friend. Only your friend and yourself can see this email.
 - you have privacy in your home but people know you live there.  
 
@@ -19,7 +20,7 @@ Examples
 Example
 - In countries where controls are high, individuals use anonimity to access resources otherwise out of reach. They protect their identity.
 
-3. <strong>Pseudo-anonimity</strong> - Concealing who you are but keeping an alias. 
+- <strong>Pseudo-anonimity</strong> - Concealing who you are but keeping an alias. 
 
 Example
 - You like posting on a forum but do not want people to know your real name. However, you want the attribution of the posts you create so you develop an alias.

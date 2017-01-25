@@ -265,4 +265,5 @@ a.sidebar-nav-item:focus {
 
 .quote-author{
   color: #888;
+  display: block;
 }
