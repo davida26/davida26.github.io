@@ -1,13 +1,15 @@
 ---
 layout: page
-title: This - About - is uncoventional
+title: About
 ---
 <hr />
 Had a lengthy 5 paragraph copy but the bounce rate was high.
 Software Engineer.
 <hr />
 
-> First do it, then do it right, then do it better. <br /><span class="quote-author">- Addy Osmani</span>
+> First do it, then do it right, then do it better.
+
+<span class="quote-author">- Addy Osmani</span>
 
 
 > Success is not final, failure is not fatal: it is the courage to continue that counts. <br /><span class="quote-author">- Winston Churchill</span>
