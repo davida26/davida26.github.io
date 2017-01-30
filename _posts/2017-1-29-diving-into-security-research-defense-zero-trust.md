@@ -9,7 +9,7 @@ description: Principle in Security, Defense in Depth and Zero Security model
 
 Defense in Depth is a principle in security that takes the approach of providing security in layers. The layers are:
 
-### Prevent > Detect > Recover
+### Prevent > Detect > Recover		
 
 - Prevention: protect files, network, etc to prevent access to confidential information.
 - Detection: set up monitoring of files/hardware to get notified when it has been breached.
