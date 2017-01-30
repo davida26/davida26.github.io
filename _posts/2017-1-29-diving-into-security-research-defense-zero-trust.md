@@ -24,13 +24,14 @@ The Zero Trust Model basically states that you should trust no one and evaluate 
 
 Using some cloud storage service like Dropbox/Google/OneDrive to store your files. Zero Trust Model would tell you that you can't trust the servers that information is stored in. No matter how secure they are there is always a risk. There could be a breach or someone within those companies could access your files. So what do you do?
 
-Solution #1 - encrypt the files. This provides an additional layer of security outside whatever those companies offer. However, it doesn't fully solve the problem of protecting the files. What happens if all the encrypted files are deleted?
+<strong>Possible Solution #1</strong> - encrypt the files. This provides an additional layer of security outside whatever those companies offer. However, it doesn't fully solve the problem of protecting the files. What happens if all the encrypted files are deleted?
 
-Solution #2 - backup the files. If all the encrypted files happen to be deleted, you have a backup. Using both solutions simultaneously would provide a more robust approach to protecting your data.
+<strong>Possible Solution #2</strong> - backup the files. If all the encrypted files happen to be deleted, you have a backup. Using both solutions simultaneously would provide a more robust approach to protecting your data.
 
 Zero Trust, Evaluate Everything. 
 
 Great reads about research conducted on The Zero Trust Model:
+
 [Developing a Framework to Improve Critical Infratruscture Cybersecurity](http://csrc.nist.gov/cyberframework/rfi_comments/040813_forrester_research.pdf)
 
 [Google Adopts Zero Trust Model: BeyondCorp](https://research.google.com/pubs/pub43231.html)
