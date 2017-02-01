@@ -11,7 +11,7 @@ description: Exploring the security landscape of today. NORSE, Bugs and Vulnerab
 
 Unlike in the past, many attackers today are not sitting behind their computers launching attacks manually - who has time for that right? Due to the increase in cheap server providers and more publicly available vulnerability software many have moved their efforts to the cloud. Attackers today can setup code relatively quickly (some dont even have to lift a finger if they are willing to pay) and cast a net to fish for vulnerable devices / a specific target. 
 
-Once a vulnerable device is found, the attacker is likely to have a database of vulnerabilities that deliver the right attack to that device. As the device is compromised it becomes part of the net casting attacks and or data from the device is delivered to the attacker. Again, looking at the [Defense in Depth](/2017-1-29-diving-into-security-research-defense-zero-trust) principle, having layers is important to minimize this risk. If one fails, your others layers are there to protect you.
+Once a vulnerable device is found, the attacker is likely to have a database of vulnerabilities that deliver the right attack to that device. As the device is compromised it becomes part of the net casting attacks and or data from the device is delivered to the attacker. Again, looking at the [Defense in Depth](/security-research/2017/01/29/diving-into-security-research-defense-zero-trust/) principle, having layers is important to minimize this risk. If one fails, your others layers are there to protect you.
 
 ## Looking at Attacks: NORSE
 
