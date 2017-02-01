@@ -2,7 +2,7 @@
 layout: post
 title: Diving into Security Research 3 - Defense in Depth
 category: Security-Research
-description: Principle in Security, Defense in Depth and Zero Security model
+description: A brief overview of the Defense in Depth principle and the Zero Trust Security Model
 ---
 
 ## Defense in Depth
@@ -15,6 +15,9 @@ Defense in Depth is a principle in security that takes the approach of providing
 - Detection: set up monitoring of files/hardware to get notified when it has been breached.
 - Recover: if all else fails, a backup is available to restore information.
 
+The approach is derived from a military principle where it is more difficult for an enemy to defeat a complex, multi-layered defense than a single point. Defence in Depth is useful to minimize the probability that a compromised system is unrecoverable.
+
+[Sans Institute Reading Room: Defense in Depth](https://www.sans.org/reading-room/whitepapers/basics/defense-in-depth-525)
 
 ## Zero Trust Model
 
