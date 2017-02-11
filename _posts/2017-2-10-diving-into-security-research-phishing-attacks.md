@@ -19,7 +19,7 @@ Let's look at examples.
 
 This is one of my favorite examples. It also brings back to my mind the principle of Defense in Depth. It is always important to have different layers to protect ourselves. 
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/HrCy050uaEU" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/HrCy050uaEU" frameborder="0" allowfullscreen></iframe>
 
 <strong>Example 2 - Phishing Emails / Websites</strong>
 
