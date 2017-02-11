@@ -26,6 +26,7 @@ This is one of my favorite examples. It also brings back to my mind the principl
 We see these all the time and they get better each year. Here is one I have seen that brings a few things together:
 
 The Dropbox Scam - How it Works
+
 1. They trick you by [spoofing](https://en.wikipedia.org/wiki/Email_spoofing) the email address. So the email can come from say support@dropbox.com. If your spam filter didn't pick it up, you are likely to fall for this. (Gmail and a few others do block this - most of the time)
 2. The email itself has a nice HTML layout with the right logo, colors and call to action button. Often, it tells you that you need to update your password or login to review your account. They want you to have some urgency so its common for an alert-like email to be sent.
 3. If you click on this email you may be redirected to a page that looks exactly like the Dropbox website. So you enter your username and password.
@@ -35,9 +36,9 @@ Now if you caught on already, *Step 3* took you to a website that isn't the real
 
 Now for those that are a little more cautious or received some training from your organization, you may have glanced at the URL and saw this when you landed at the dropbox page:
 
-'''
+```
 www.dropbox.secured-email-12.com
-'''
+```
 
 Organizations provide training to their employees to spot fake emails/websites. Most of the time employees just briefly glance at the first part to identify if it matches something they were trained to look for. Here is sample logic they use in situations like this:
 
@@ -99,9 +100,9 @@ In the business world, the best way to avoid these scams is to train people and 
 <strong>Hidden URLS - links with text shown</strong>
 - Click Here - the actual link is hidden in html
 
-'''html
+```html
 <a href="http://www.google.com.badDomain.com">Click Here</a>
-'''
+```
 
 - Rich HTML (emails with buttons or images)
 
