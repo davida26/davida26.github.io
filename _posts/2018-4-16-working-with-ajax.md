@@ -67,4 +67,4 @@ A snippet for rails, within your data loop:
 <%= link_to 'Delete', page, class: 'btn btn-danger', remote: true, method: :delete, data: {confirm: 'Are you sure you want to delete this page?'} %>
 ```
                     
-Reference: https://api.jquery.com/jquery.ajax/
+Reference: [https://api.jquery.com/jquery.ajax/](https://api.jquery.com/jquery.ajax/)
