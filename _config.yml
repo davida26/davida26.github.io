@@ -16,7 +16,7 @@ title:            CuratedCode
 tagline:          'Web Apps, Design & Experiments'
 description:      'Web Apps, Design & Experiments. A collection of research interests by David Aviles.'
 url:              https://www.curatedcode.com
-baseurl:          /
+baseurl:          '/'
 
 author:
   name:           'David Aviles'
