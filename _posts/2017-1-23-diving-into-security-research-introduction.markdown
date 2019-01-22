@@ -16,7 +16,7 @@ This is what its all about. He wasnt the only smart man to provide this advice e
 
 > We keep moving forward, opening new doors, and doing new things, because we're curious and curiosity keeps leading us down new paths.
 
-So with that said. I begin with a German beer by my side and the world wide web and some of the world's best security experts to guide me on my journey. Cheers.
+So with that said, let the journey begin. Cheers.
 
 ## Questions to answer. <small>Not in any order</small>
 
@@ -30,6 +30,6 @@ So with that said. I begin with a German beer by my side and the world wide web 
 - How do I put to use the things I have learned?
 - Can I become knowledgeable enough to contribute to open security projects? - I should probably rephrase this to am I *confident* enough to contribute to a project? IF (!confident) {do more research}.
 
-I will start from the ground up for good practice and reinforcement of concepts.
+I will start from the ground up for good practice and reinforcement of concepts/principles.
 
 

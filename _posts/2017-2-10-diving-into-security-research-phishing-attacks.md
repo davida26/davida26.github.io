@@ -94,10 +94,12 @@ In the business world, the best way to avoid these scams is to train people and 
 - http://www.secured-123456/google.com/login
 
 <strong>Homograph - slight change in domain</strong>
-- http://www.drob8ox.com - little change of character, easy to miss
+
+- http://www.drob8ox.com
 - http://www.g00gle.com
 
 <strong>Hidden URLS - links with text shown</strong>
+
 - Click Here - the actual link is hidden in html
 
 ```html
@@ -111,8 +113,5 @@ In the business world, the best way to avoid these scams is to train people and 
 Here is a lisk from Consumer Fraud Reporting about the current top 10 scams:
 
 [http://www.consumerfraudreporting.org/current_top_10_scam_list.php](http://www.consumerfraudreporting.org/current_top_10_scam_list.php)
-
-
-
 
 
